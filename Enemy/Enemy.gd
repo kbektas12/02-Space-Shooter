@@ -1,10 +1,11 @@
 extends KinematicBody2D
 
-var VP = Vector2.ZERO
-var direction = 0.0
-var dir_speed = 0.01
 
-var probability = 0.6
+var VP = Vector2.ZERO
+var direction = 1
+var dir_speed = 1
+
+var probability = 0.5
 
 var Bullets = null
 var Enemy_Bullet = preload("res://Enemy_Bullet/Enemy_Bullet.tscn")
